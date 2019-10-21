@@ -71,7 +71,6 @@ function addDeleteEmpListener()
                     {            
                         employee_list.splice(i,1);
                         createEmpTable(employee_list);
-                        console.log(e.target.parentElement.parentElement.getElementsByClassName("empName")[0].innerHTML);
                         break;
                     }
             }
