@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 08</title>
+    <script src="js/employee-management.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h3>The Employee Management System</h3>
+    <h5 style="font-weight:bold;">Add Employee</h5>
+    <form id="addEmployeeForm" method="GET">
+
+    </form>
+    <table>
+        <tr>
+            <td class="empEntryLbl"><label for="empName">Name:</label></td>
+            <td><input type="text" id="empName" /><span id="empNameError" class="error"></span></td>
+        </tr>
+        <tr>
+            <td class="empEntryLbl"><label for="empTitle">Title:</label></td>
+            <td><input type="text" id="empTitle" /><span id="empTitleError" class="error"></span></td>
+        </tr>
+        <tr>
+            <td class="empEntryLbl"><label for="empExtension">Extension:</label></td>
+            <td><input type="text" id="empExtension" /><span id="empExtensionError" class="error"></span></td>
+        </tr>
+        <tr>
+            <td class="empEntryLbl"></td>
+            <td><input type="button" id="btnAddEmployee" value="Add"></td>
+        </tr>
+    </table>
+    
+    <div id="dvEmployeeList">
+        <h5>Showing 2 employees</h5>
+        <table  id="tblEmpList">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Title</td>
+                    <td>Extension</td>
+                    <td></td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>

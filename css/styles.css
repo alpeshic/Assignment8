@@ -1,0 +1,30 @@
+.error {
+    color:red;
+}
+.empEntryLbl{
+    padding-right:20px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4876EB;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#tblEmpList  tr:nth-child(even) {
+    background:#FFF;
+    border:0px;
+    color:#000;
+}
+#tblEmpList tr:nth-child(odd) {
+    background:#DFE7C0;
+}
+#tblEmpList tr:first-child {
+    background-color: #4876EB;
+    font-weight: bold;
+    color: white;
+}
+#btnAddEmployee{
+    float: right;
+}
